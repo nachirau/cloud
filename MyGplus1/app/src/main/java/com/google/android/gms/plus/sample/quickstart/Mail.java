@@ -43,7 +43,7 @@
             _sport = "465"; // default socketfactory port
 
             _user = "carparkny"; // username
-            _pass = "******"; // password - nachiket
+            _pass = "******"; // 
             _from = "carparkny@gmail.com"; // email sent from
             _subject = "Test Mail"; // email subject
             _body = "Tell me somethign"; // email body
@@ -76,7 +76,7 @@
                     new Authenticator() {
                         protected PasswordAuthentication  getPasswordAuthentication() {
                             return new PasswordAuthentication(
-                                    "carparkny@gmail.com", "*******"); //use nachiket
+                                    "carparkny@gmail.com", "*******");
                         }
                     });
             MimeMessage msg = new MimeMessage(session);
