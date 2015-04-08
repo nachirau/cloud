@@ -1,9 +1,8 @@
-# gplus-quickstart-android
-Sample application demonstrating the following features:
+# 
+First prototype of application which identifies parking locations and uses google+ and wallet to authenticate users. Yet to add backend.
 
   * Google+ Sign-In
-  * Retrieving server auth code for offline access
-  * Listing people that a user has circled
+  * Load a Validate/Park selection
+  * Load a Map Activity
+  * Integrate with Maps API 
 
-For more information on how to build and run this sample, see
-[the quickstart documentation here](https://developers.google.com/+/quickstart/android).
